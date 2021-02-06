@@ -17,21 +17,26 @@ print("You chose: '" , user_input , "'")
 #simulating a computer input
 #
 
-arr = ["rock", "paper", "scissors"]
-
-computer_choice = random.choice(arr)
+options = ["rock", "paper", "scissors"]
+computer_choice = random.choice(options)
 print("The computer chose: '" , computer_choice , "'")
-
 print("-------------------")
-
-
 
 #
 #determining who won
 #
-print("Oh, the computer won. It's ok.")
-print("-------------------")
-print("Thanks for playing. Please play again!")
+
+#draw condition
+
+if user_input == computer_choice :
+    print("It's a tie !")
+elif user_input == "rock" and computer_choice == "scissors":
+        print("You win !")
+elif user_input == "scissors" and computer_choice == "paper":
+        print("You win!")
+elif user_input == "paper" and computer_choice == "rock":
+        print("You win!")
+
 
 
 
