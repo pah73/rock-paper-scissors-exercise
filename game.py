@@ -1,5 +1,9 @@
 import random
 
+#
+# creating a username
+#
+
 
 print("-------------------")
 print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
@@ -16,11 +20,18 @@ print("You chose: '", user_input, "'")
 #
 #simulating a computer input
 #
+
 options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(options)
 print("The computer chose: '" , computer_choice , "'")
 print("-------------------")
 
+#
+# Validate the user selection
+#
+if user_input not in options:
+        print("OOPS. Please choose a valid option and try again")
+        exit()
 #
 #determining who won
 #
