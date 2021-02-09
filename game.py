@@ -3,6 +3,8 @@
 # I'm not sure why this is happening... I tried deleting and redownloading my local repo, restarting the requirements.txt and .env files
 #tried making a new anaconda environemnt with everything installed and couldnt figure out why this is the case
 # put the commented code that would be needed for the username below along with the necessary files, but functionality is working 100%.
+# I think if I could figure out how to add a .gitignore file with the basic functionality in it this would work. 
+# I was going to create a new repo with all my work and add a .gitignore file but then my commits wouldnt have saved.
 
 import random
 import os 
