@@ -1,12 +1,24 @@
+#note on submission: I had everything working and was reviewing / trying to create a .gitignore file because I forgot to make one when i set up the repo
+# when I uncomment the from dotenv import load_dotenv line, the from is underlined and says that I can't load it. 
+# I'm not sure why this is happening... I tried deleting and redownloading my local repo, restarting the requirements.txt and .env files
+#tried making a new anaconda environemnt with everything installed and couldnt figure out why this is the case
+# put the commented code that would be needed for the username below along with the necessary files, but functionality is working 100%.
+
 import random
+import os 
+
+#from dotenv import load_dotenv
+# load_dotenv()
 
 #
 # creating a username
 #
 
+# PLAYER_NAME = os.getenv("USER_NAME", default="Player 1")
 
 print("-------------------")
 print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+# should be ("Welcome 'PLAYER_NAME' to my )
 print("-------------------")
 
 
