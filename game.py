@@ -1,6 +1,5 @@
 import random
 
-
 #
 # creating a username
 #
